@@ -98,13 +98,13 @@ class MainActivity : AppCompatActivity() {
             binding.root.setBackgroundResource(R.drawable.sunny)
             binding.lottieAnimationView.setAnimation(R.raw.sun)
         }
-        "Partly Clouds","Clouds","Overcast","Mist","Foggy"->{
-            binding.root.setBackgroundResource(R.drawable.raine)
-            binding.lottieAnimationView.setAnimation(R.raw.raining)
-        }
-        "Light Rain","Drizzle","Moderate Rain","Showers","heavy Rain"->{
-            binding.root.setBackgroundResource(R.drawable.rain)
+        "Partly Clouds","Clouds","Overcast","Mist","Foggy","Haze"->{
+            binding.root.setBackgroundResource(R.drawable.cloudy)
             binding.lottieAnimationView.setAnimation(R.raw.cloud)
+        }
+        "Rain","Light Rain","Drizzle","Moderate Rain","Showers","heavy Rain"->{
+            binding.root.setBackgroundResource(R.drawable.raiiin)
+            binding.lottieAnimationView.setAnimation(R.raw.raining)
         }
         "Light Snow","Moderate snow","Heavy Snow","Blizzard"->{
             binding.root.setBackgroundResource(R.drawable.snowfall)
